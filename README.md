@@ -16,27 +16,7 @@ This repository contains a complete web application that predicts the likelihood
 
 The UCLA Admission Predictor helps students estimate their chances of admission based on input features such as GRE scores, TOEFL scores, GPA, and research experience. The model was trained using machine learning techniques and deployed via a REST API.
 
-## Folder Structure
-```
-Prediction-of-admission-into-UCLA/
-│── README.md                          # Project overview
-│── app/
-│   ├── ucla-admission-frontend/       # React frontend
-│   │   ├── README.md                  # Instructions for frontend setup
-│   ├── express-backend/               # Express.js backend
-│   │   ├── README.md                  # Instructions for backend setup
-│   ├── Flask/                         # Flask API
-│   │   ├── README.md                  # Instructions for Flask API setup
-│── admission_predict.csv              # (Optional) Dataset used for training
-│── Predicting_Admission_Complete.ipynb     #Complete File
-```
 
-## Installation and Setup
-Each part of the project has its own setup instructions. Navigate to the respective folders and follow the installation guides in their README files:
-
-- **Frontend (React.js):** `cd app/` → Follow `README.md`
-- **Backend (Express.js):** `cd app/` → Follow `README.md`
-- **Flask API (Machine Learning Model):** `cd app/` → Follow `README.md`
 
 ## Usage
 Once all services are running:
